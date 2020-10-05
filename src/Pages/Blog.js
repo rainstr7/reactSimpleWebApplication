@@ -5,6 +5,7 @@ class Blog extends Component {
     render() {
         return (
             <Container>
+                <div className="mt-5">
                 <Row>
                     <Col md="9">
                         <Media className="m-5">
@@ -84,6 +85,7 @@ class Blog extends Component {
                         </Card>
                     </Col>
                 </Row>
+                </div>
             </Container>
         )
     }
