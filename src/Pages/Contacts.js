@@ -6,7 +6,7 @@ class Contacts extends Component {
         return (
             <Container style={{width: '500px'}}>
                 <div className="mt-5">
-                <h1 className="text-center">Contact us</h1>
+                <h1 className="text-center pt-5">Contact us</h1>
                 <Form>
                     <Form.Group controlId="formBasicEmail">
                         <Form.Label>Email address</Form.Label>
